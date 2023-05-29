@@ -27,7 +27,7 @@ CREATE TABLE `tbmhs` (
   `alamat` text DEFAULT NULL,
   `jurusan` varchar(255) DEFAULT NULL,
   `no_tlp` varchar(20) DEFAULT NULL,
-  PRIMARY KEY (`id_mahasiswa`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `tbmhs` */
